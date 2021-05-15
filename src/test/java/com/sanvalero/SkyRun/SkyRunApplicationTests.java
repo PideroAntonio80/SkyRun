@@ -1,4 +1,4 @@
-package com.sanvalero.SkyRun;
+package com.sanvalero.skyrun;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
