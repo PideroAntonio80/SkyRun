@@ -31,12 +31,10 @@ public class Runner {
     private String name;
 
     @Schema(description = "Runner age", example = "40", required = true)
-    @NotBlank
     @Column
     private int age;
 
     @Schema(description = "Is this runner federated?", example = "true")
-    @NotBlank
     @Column
     private boolean federated;
 

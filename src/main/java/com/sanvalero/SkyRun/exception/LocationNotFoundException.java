@@ -5,7 +5,7 @@ package com.sanvalero.skyrun.exception;
  * el 15/05/2021
  */
 
-public class LocationNotFoundException extends RuntimeException{
+public class LocationNotFoundException extends RuntimeException {
 
     public LocationNotFoundException() {
         super();

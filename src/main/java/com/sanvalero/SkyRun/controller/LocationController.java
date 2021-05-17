@@ -147,7 +147,7 @@ public class LocationController {
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "Location deleted",
                     content = @Content(schema = @Schema(implementation = Response.class))),
-            @ApiResponse(responseCode = "404", description = "La location doesn't exist",
+            @ApiResponse(responseCode = "404", description = "Location doesn't exist",
                     content = @Content(schema = @Schema(implementation = Response.class)))
     })
     @DeleteMapping(value = "/skyrun/locations/{id}")

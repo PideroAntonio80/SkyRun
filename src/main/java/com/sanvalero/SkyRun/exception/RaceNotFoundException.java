@@ -16,6 +16,6 @@ public class RaceNotFoundException extends RuntimeException{
     }
 
     public RaceNotFoundException(long id){
-        super("Location not found: " + id);
+        super("Race not found: " + id);
     }
 }

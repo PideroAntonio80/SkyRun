@@ -13,5 +13,6 @@ import java.util.Set;
 
 @Repository
 public interface RunnerRepository extends CrudRepository<Runner, Long> {
+
     Set<Runner> findAll();
 }
