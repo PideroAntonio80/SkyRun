@@ -1,0 +1,29 @@
+2021-05-19 17:07:28,752 INFO org.springframework.boot.StartupInfoLogger [main] Starting SkyRunApplication using Java 11.0.8 on DESKTOP-SPU9LGP with PID 8504 (C:\Users\shady\Documents\Proyectos_IntelliJ\SkyRun\target\classes started by shady in C:\Users\shady\Documents\Proyectos_IntelliJ\SkyRun)
+2021-05-19 17:07:28,754 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-05-19 17:07:29,322 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-19 17:07:29,374 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 44 ms. Found 3 JPA repository interfaces.
+2021-05-19 17:07:29,927 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-05-19 17:07:29,937 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-19 17:07:29,938 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-05-19 17:07:29,938 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-19 17:07:30,051 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-05-19 17:07:30,051 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1264 ms
+2021-05-19 17:07:30,228 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-19 17:07:30,305 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-19 17:07:30,453 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-19 17:07:30,558 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-05-19 17:07:30,717 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-05-19 17:07:30,733 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-05-19 17:07:31,221 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-19 17:07:31,227 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-19 17:07:31,509 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-19 17:07:31,569 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-19 17:07:31,889 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-05-19 17:07:32,011 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-05-19 17:07:32,032 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-19 17:07:32,039 INFO org.springframework.boot.StartupInfoLogger [main] Started SkyRunApplication in 3.677 seconds (JVM running for 4.056)
+2021-05-19 17:08:02,225 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-19 17:08:02,225 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-05-19 17:08:02,227 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 2 ms
+2021-05-19 17:08:02,258 INFO com.sanvalero.skyrun.controller.LocationController [http-nio-8080-exec-2] Init getLocations
+2021-05-19 17:08:02,403 INFO com.sanvalero.skyrun.controller.LocationController [http-nio-8080-exec-2] End getLocations
